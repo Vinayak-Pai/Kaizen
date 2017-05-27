@@ -9,8 +9,8 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 try:
     ssh.connect(hostname=hostname, username=username, password=password)
     print "connected successfully!"
-except Exception,e:
-    print "Connection error",e
+except Exception, e:
+    print "Connection error", e
 
 '''
 sftp.get(remotepath,localpath)
@@ -18,7 +18,7 @@ sftp.put(localpath,remotepath)
 '''
 
 sftp = ssh.open_sftp()
-sftp.put(" " ,
+sftp.put(" ",
          " ")
 
 sftp.close()
