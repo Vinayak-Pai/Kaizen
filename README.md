@@ -1,2 +1,2 @@
 # Kaizen
-Keep Learning
+Keep Learning and change for better!
