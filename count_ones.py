@@ -10,7 +10,7 @@ def executor_ones(bin_num):
                 greater_len = swap_and_check(bin_num, i, output)
                 if greater_len > output:
                     output = greater_len
-        print "The greatest length of number of ones in the given input {} is {}".format(bin_num,output)
+        print("The greatest length of number of ones in the given input {} is {}".format(bin_num,output))
 
 def check_for_validity(bin_num):
     bin = ['0', '1']
@@ -18,7 +18,7 @@ def check_for_validity(bin_num):
         if i in bin:
             pass
         else:
-            print " Invalid binary number, please enter 0's and 1's"
+            print(" Invalid binary number, please enter 0's and 1's")
             return False
     return True
 
@@ -49,7 +49,7 @@ def check_longest_ones(bin_num):
 
 
 if __name__ == "__main__":
-    binary_input = raw_input(" Enter the binary number: ")
+    binary_input = input(" Enter the binary number: ")
     executor_ones(binary_input)
 
 
