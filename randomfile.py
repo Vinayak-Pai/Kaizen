@@ -15,7 +15,7 @@ def maxDepth(node):
         return 0
     else:
         # Compute the depth of each subtree
-        lDepth = maxDepth(node.Flaskleft)
+        lDepth = maxDepth(node.left)
         rDepth = maxDepth(node.right)
         print(lDepth)
 

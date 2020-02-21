@@ -61,7 +61,7 @@ class User(Resource):
     def put(self, name):
         """
         update operation
-        """Flask
+        """
         parser = reqparse.RequestParser()
         parser.add_argument("age")
         parser.add_argument("role")
